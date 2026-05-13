@@ -1,0 +1,32 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 260px;
+  background: #111827;
+  padding: 24px;
+  border-right: 1px solid #334155;
+
+  h1 {
+    margin-bottom: 40px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.content {
+  flex: 1;
+  padding: 32px;
+  background: #020617;
+}
